@@ -1,0 +1,72 @@
+Ansible 
+https://www.youtube.com/watch?v=dCQpaTTTv98
+
+https://www.edureka.co/blog/what-is-ansible/?utm_source=youtube&utm_medium=description-link&utm_campaign=id
+
+
+	Topics:
+ 1.  Introduction
+2. Features
+3. Ansible for Orchestration
+4. Ansible for Provisioning
+5. Ansible for Config Management
+6. Ansible for  Application Deployment
+7. Ansible for Security
+8. Playbooks
+9. Yaml
+
+Configuration management system is used for orderly management of the system information and system changes, so that  it uses for beneficial purposes.
+It documents all the snapshots of every version of your infrastructure.
+
+
+Snapshots and where is it stored?
+
+Snapshot stores the overall configuration details  which are nothing but data descriptions of over all state of your  at a particular time.
+Where does these snapshots stored?
+Config mgt has its own repository which is called as CMDB(Configuration Management DB)
+
+Why CM??
+
+Problems: Managing multiple servers.
+￼
+Problem2: Scale up and scale down servers
+
+￼
+Ansible Architecture
+
+￼
+Inventory: List of all IP addresses  of host machines
+CMDB:Repository of all Ansible configuration files
+Playbook :describes entire work flow of your system.
+		It has set of plays, set of tasks, inside every task there are modules
+Playbooks are written in YAML
+
+YAML is a data serialization language.
+	translator for breaking down all your data structure and serialize them in particular order, which can be reconstructed for later use.
+
+Ansible for Orchestration:
+
+￼
+
+Definition: Orchestration describes automated arrangement, coordination, and management of complex computer systems, and services. It is often discussed as having an inherent intelligence or even implicitly autonomic control, but those are largely aspirations or analogies rather than technical descriptions.
+
+
+Application deployment needs to be orchestrated, because we got front end, backend services, data base services, monitoring, networking etc and each has its own configuration and  deployment. which are all need to be orchestrated and properly worked.
+
+Provisioning:
+Def: Providing with something needed.
+
+Ansible makes sure that all the required softwares that we need for our application
+ Are properly installed in the env of the infrastructure.
+
+LAMP: Linux Apache MySQL Python
+
+Configuration Management:
+
+
+	ansible-playbook myplaybook.yml
+
+
+
+
+
